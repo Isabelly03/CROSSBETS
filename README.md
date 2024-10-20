@@ -17,4 +17,10 @@ No CrossBets Cassino, os jogadores apostam em diferentes jogos para ganhar prêm
 1. Clone o repositório:
    ```bash
     (https://github.com/Isabelly03/CROSSBETS)
+Navegue até a pasta do projeto e compile:
+cd crossbets_cassino
+g++ -o cassino cassino.cpp
+
+
+
    

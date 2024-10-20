@@ -189,9 +189,9 @@ void jogo_dos_dados() {
 
 // Função da Roda da Fortuna
 void roda_da_fortuna() {
+	const int NUM_SECOES = 9; // Total de seções na roda
+    int premios[NUM_SECOES] = {0, 10, 20, 50, -10, -20, -50, 2}; // Prêmios correspondentes às seções (ganhos e perdas)
     do {
-        const int NUM_SECOES = 9; // Total de seções na roda
-        int premios[NUM_SECOES] = {0, 10, 20, 50, -10, -20, -50, 2}; // Prêmios correspondentes às seções (ganhos e perdas)
         srand(time(0));
         apostado();
         limparTela();
